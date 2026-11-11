@@ -83,11 +83,12 @@ body {
 .content__title a {
     color: var(--gray-950);
     text-decoration: none;
-    transition: color 0.3s;
+    transition: 0.3s;
 }
 
 .content__title a:hover {
     color: var(--yellow);
+    text-decoration: underline;
     cursor: pointer;
 }
 
